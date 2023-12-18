@@ -1,0 +1,89 @@
+body {
+margin: 0px;
+padding: 0px;
+background-color: rgb(202, 230, 255);
+}
+
+
+.container {
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 8px black;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 700px;
+     
+}
+
+.main img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+
+.planner {
+    background-color: hsl(240, 100%, 98%);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+}
+span {
+    margin-top: 23px;
+}
+.planner img {
+    width: 70px;
+}
+.planner span {
+    text-decoration:underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+.money {
+    margin-top: -35px;
+}
+
+.buttons{
+
+    margin-top: 20px;
+}
+
+.pay {
+    color: rgb(250, 247, 243);
+    font-weight: bold;
+    background-color: rgb(49, 49, 253);
+    width: 290px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+.pay:hover {
+    background-color: blue;
+}
+
+.cancel {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(221, 220, 220);
+    width: 290px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
